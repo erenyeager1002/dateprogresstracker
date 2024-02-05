@@ -10,11 +10,14 @@
 <div class="container">
   <h1>Progress Tracker</h1>
   <div class="input-group">
-    <label for="dateInput">Enter today's date:</label>
+    <label for="dateInput">Select a date:</label>
     <input type="date" id="dateInput">
     <button onclick="calculateProgress()">Calculate</button>
   </div>
-  <p id="progressResult"></p>
+  <div class="progress">
+    <div id="progressBar" class="progress-bar"></div>
+  </div>
+  <div id="progressText"></div>
 </div>
 <script src="script.js"></script>
 </body>
